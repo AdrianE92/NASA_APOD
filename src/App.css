@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.thumbnail {
+  max-width: 200px;
+  max-height: 100px;
+  float: left;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.thumbnail:hover{
+  transform: scale(1.2);
+}
+
+.thumbnail_con {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  float: left;
+}
+
+.explanation {
+  width: 1200px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}
